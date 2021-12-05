@@ -4,7 +4,7 @@ import React from 'react';
 import Hero from '../../components/Hero';
 function Projects() {
 	return (
-		<Layout title='Projects'>
+		<Layout>
 			<main className='container'>
 				<Hero
 					className='align-item-center'

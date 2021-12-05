@@ -31,7 +31,7 @@ const postTotal = Array.from(
 
 function BlogArchive() {
 	return (
-		<Layout title='Articles'>
+		<Layout>
 			<main className='container'>
 				<Hero
 					className='align-item-center'

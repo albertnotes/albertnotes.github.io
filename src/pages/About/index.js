@@ -3,7 +3,7 @@ import React from 'react';
 import Hero from '../../components/Hero';
 function About() {
 	return (
-		<Layout title='About'>
+		<Layout>
 			<main className='container'>
 				<Hero className='align-item-center' title='About Me'>
 					<i> </i>
