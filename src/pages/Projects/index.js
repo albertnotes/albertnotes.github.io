@@ -1,7 +1,7 @@
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 import React from 'react';
-import Hero from '../components/Hero';
+import Hero from '../../components/Hero';
 function Projects() {
 	return (
 		<Layout>
