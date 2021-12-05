@@ -1,0 +1,22 @@
+.hero {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	background-color: transparent;
+}
+
+.hero h3 {
+	display: block;
+	font-size: 1.75rem;
+	color: var(--ifm-color-primary);
+}
+.hero p {
+	font-size: 1rem;
+	color: var(--ifm-color-emphasis-500);
+	margin-bottom: 0;
+	word-break: keep-all;
+}
+
+.hero i {
+	margin-left: auto;
+}

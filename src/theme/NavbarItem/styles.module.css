@@ -1,0 +1,45 @@
+.navbar-item {
+	display: block;
+	position: relative;
+	text-align: center;
+	padding: 1rem;
+}
+
+.navbar nav {
+	flex-direction: row;
+}
+
+.navbar-item:active {
+	background-color: var(--ifm-background-surface-color);
+}
+
+@media (min-width: 997px) {
+	.navbar nav {
+		flex-direction: row;
+	}
+	.navbar-item::before {
+		content: '';
+		display: none;
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 80px;
+		width: 2px;
+	}
+
+	.navbar-item:hover,
+	.navbar-item.active {
+		background-color: var(--ifm-background-surface-color);
+	}
+
+	.navbar-item:hover::before,
+	.navbar-item.active::before {
+		display: block;
+	}
+
+	.navbar-item.active::before {
+		display: block;
+		bottom: 0;
+		background-color: var(--ifm-color-primary);
+	}
+}

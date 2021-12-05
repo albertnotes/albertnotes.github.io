@@ -1,0 +1,20 @@
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	font-size: 0.75rem;
+	line-height: 1.875rem;
+	background-color: var(--ifm-background-surface-color);
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 0 1.5rem;
+	text-align: center;
+}
+
+@media (min-width: 997px) {
+	.footer {
+		text-align: left;
+	}
+}

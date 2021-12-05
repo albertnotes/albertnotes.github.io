@@ -1,0 +1,31 @@
+.header {
+	display: none;
+}
+
+@media (min-width: 997px) {
+	.header {
+		display: flex;
+		flex-direction: row;
+		background-color: var(--ifm-background-surface-color);
+		position: sticky;
+		z-index: 10;
+		top: 0;
+	}
+	.header h1 {
+		margin-bottom: 0;
+		font-size: 1rem;
+		padding: 0.5rem 1rem;
+		background-color: var(--ifm-background-color);
+		border-top: 3px solid var(--ifm-color-primary);
+	}
+
+	.header button {
+		margin-bottom: 0;
+		border: 0;
+		font-size: 1.25rem;
+		padding: 0 0.85rem;
+		cursor: pointer;
+		color: var(--ifm-color-emphasis-500);
+		background-color: var(--ifm-background-surface-color);
+	}
+}
