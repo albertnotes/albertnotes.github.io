@@ -12,7 +12,6 @@ function Root({ children }) {
 		setIsHiddenSidebar(value => !value);
 		document.body.classList.toggle('collapsed');
 	};
-	console.log(AllCategories);
 	const location = useLocation();
 	const sidebars = AllCategories.map(category => {
 		let _ = {
