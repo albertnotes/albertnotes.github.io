@@ -14,9 +14,14 @@
 	font-size: 1rem;
 	color: var(--ifm-color-emphasis-500);
 	margin-bottom: 0;
-	word-break: keep-all;
 }
 
 .hero i {
 	margin-left: auto;
+}
+
+@media (min-width: 997px) {
+	.hero p {
+		max-width: 80%;
+	}
 }

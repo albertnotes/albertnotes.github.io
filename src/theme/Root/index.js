@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import ReactTooltip from 'react-tooltip';
 import AllCategories from '../../utils/AllCategories';
 import AllPosts from '../../utils/AllPosts';
 import Header from '../Header';
@@ -26,7 +25,6 @@ function Root({ children }) {
 
 	return (
 		<>
-			<ReactTooltip />
 			<Sidebar
 				sidebar={sidebars}
 				isHidden={isHiddenSidebar}

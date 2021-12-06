@@ -31,7 +31,6 @@ function Navbar({ children }) {
 									className={item.className}
 									href={item.href ?? item.to}
 									target={item.target}
-									tip={item.label}
 								>
 									<img src={item.image} alt={item.label} />
 								</NavbarItem>

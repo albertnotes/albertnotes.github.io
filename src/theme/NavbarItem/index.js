@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 
 // Default implementation, that you can customize
 function NavbarItem(props) {
-	const { href, target, tip, className } = props;
+	const { href, target, className } = props;
 	const location = useLocation();
 	const isActive = location.pathname.includes(href);
 
@@ -19,7 +19,6 @@ function NavbarItem(props) {
 				)}
 				href={href}
 				target={target}
-				data-tip={tip}
 			>
 				{props.children}
 			</a>
