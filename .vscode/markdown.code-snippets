@@ -1,0 +1,44 @@
+{
+	"md-create-blog-page": {
+		"prefix": "md-create-blog-page",
+		"body": [
+			"---",
+			"slug: {類別}/{yyyy}/{MM}/{DD}/標題",
+			"title: 標題",
+			"authors: albert",
+			"tags: [tags]",
+			"---"
+		],
+		"description": "md-create-blog-page"
+	},
+	"md-break-important": {
+		"prefix": "md-break-important",
+		"body": [":::important", "", ":::"],
+		"description": "md-break-important"
+	},
+	"md-break-note": {
+		"prefix": "md-break-note",
+		"body": [":::note", "", ":::"],
+		"description": "md-break-note"
+	},
+	"md-break-tip": {
+		"prefix": "md-break-tip",
+		"body": [":::tip", "", ":::"],
+		"description": "md-break-tip"
+	},
+	"md-break-info": {
+		"prefix": "md-break-info",
+		"body": [":::info", "", ":::"],
+		"description": "md-break-info"
+	},
+	"md-break-caution": {
+		"prefix": "md-break-caution",
+		"body": [":::caution", "", ":::"],
+		"description": "md-break-caution"
+	},
+	"md-break-danger": {
+		"prefix": "md-break-danger",
+		"body": [":::danger", "", ":::"],
+		"description": "md-break-danger"
+	}
+}
