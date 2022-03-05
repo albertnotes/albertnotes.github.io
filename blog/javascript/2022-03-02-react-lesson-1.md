@@ -2,7 +2,7 @@
 slug: javascript/2022/03/02/React-Lesson-1
 title: React Lesson 1
 authors: albert
-tags: [tags]
+tags: [javascript, react]
 ---
 
 ## 前言
@@ -44,3 +44,5 @@ React 是由 Facebook(Meta) 團隊所推出的函式庫，一開始公司內使�
 用 React 拆成 component 層級，組合完整的使用者介面。
 
 ![](https://firebasestorage.googleapis.com/v0/b/albertnotes-65a90.appspot.com/o/react-1_1.png?alt=media&token=9700576a-3a8f-4e59-b7ee-13c4ba42b8df)
+
+接著開始進入 React 世界...

@@ -17,6 +17,7 @@ const config = {
 	projectName: 'albertnotes.github.io', // Usually your repo name.
 	organizationName: 'albertnotes', // Usually your GitHub org/user name.,
 	deploymentBranch: 'gh-pages',
+	themes: ['@docusaurus/theme-live-codeblock'],
 	presets: [
 		[
 			'@docusaurus/preset-classic',

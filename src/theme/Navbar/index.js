@@ -1,6 +1,6 @@
 import Link from '@docusaurus/Link';
+import { useWindowSize } from '@docusaurus/theme-common';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useWindowSize from '@theme/hooks/useWindowSize';
 import clsx from 'clsx';
 import React from 'react';
 import NavbarItem from '../NavbarItem';

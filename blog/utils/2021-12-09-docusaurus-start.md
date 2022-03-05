@@ -18,7 +18,7 @@ Hi 本部落格使用 Docusaurus 構建。
 
 主題使用 `@docusaurus/preset-classic`，並且觀察使用的元件
 
-<img src={useBaseUrl('/img/docusaurus/img-1.png')} />
+![](https://firebasestorage.googleapis.com/v0/b/albertnotes-65a90.appspot.com/o/2021-12-09-docusaurus-start_1.png?alt=media&token=75aec7c4-0feb-4e3d-be23-f265cfbb1c3b)
 
 ##
 

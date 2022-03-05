@@ -33,13 +33,6 @@
 		padding-top: 0;
 	}
 
-	.sidebarHidden {
-		opacity: 0;
-		height: 0;
-		overflow: hidden;
-		visibility: hidden;
-	}
-
 	.sidebarLogo {
 		display: flex !important;
 		align-items: center;

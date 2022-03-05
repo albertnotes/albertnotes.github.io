@@ -5,6 +5,8 @@ authors: albert
 tags: [css]
 ---
 
+<!--truncate-->
+
 ## 環境
 
 - 安裝 nodejs 12.13.0 或更高版本

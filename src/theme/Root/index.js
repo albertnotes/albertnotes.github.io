@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useLocation } from 'react-router-dom';
 import AllCategories from '../../utils/AllCategories';
 import AllPosts from '../../utils/AllPosts';
@@ -6,11 +6,10 @@ import Header from '../Header';
 import Sidebar from '../Sidebar';
 // Default implementation, that you can customize
 function Root({ children }) {
-	const [isHiddenSidebar, setIsHiddenSidebar] = useState(false);
 	const toggleSidebar = () => {
-		setIsHiddenSidebar(value => !value);
 		document.body.classList.toggle('collapsed');
 	};
+
 	const location = useLocation();
 	const sidebars = AllCategories.map(category => {
 		let _ = {
@@ -25,11 +24,7 @@ function Root({ children }) {
 
 	return (
 		<>
-			<Sidebar
-				sidebar={sidebars}
-				isHidden={isHiddenSidebar}
-				path={location.pathname}
-			/>
+			<Sidebar sidebar={sidebars} path={location.pathname} />
 			<Header toggleSidebar={toggleSidebar} />
 			{children}
 		</>

@@ -67,7 +67,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 		margin-left: var(--main-wrapper-hidden-sidebar-margin-left);
 		width: calc(100% - var(--main-wrapper-hidden-sidebar-margin-left));
 	}
-	.collapsed .sidebarHidden {
+	.collapsed .sidebar {
 		opacity: 0;
 		height: 0;
 		overflow: hidden;

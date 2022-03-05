@@ -5,22 +5,16 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import { ThemeClassNames } from '@docusaurus/theme-common';
-import useWindowSize from '@theme/hooks/useWindowSize';
+import { ThemeClassNames, useWindowSize } from '@docusaurus/theme-common';
 import clsx from 'clsx';
 import React from 'react';
 import { DocSidebarItems } from '../SidebarItems';
 import styles from './styles.module.css';
 
-function DocSidebarDesktop({ path, sidebar, isHidden }) {
+function DocSidebarDesktop({ path, sidebar }) {
 	return (
 		<div
-			className={
-				('sidebar',
-				clsx(styles.sidebar, {
-					[styles.sidebarHidden]: isHidden,
-				}))
-			}
+			className={clsx('sidebar', styles.sidebar)}
 		>
 			<div className={styles.sidebarHeader}>
 				<span>Categories</span>
