@@ -28,7 +28,7 @@ const config = {
 					blogSidebarCount: 'ALL',
 					// Please change this to your repo.
 					editUrl:
-						'https://github.com/Albertnotes/albertnotes.github.io/edit/master/blog/',
+						'https://github.com/Albertnotes/albertnotes.github.io/edit/main/',
 				},
 				theme: {
 					customCss: require.resolve('./src/css/custom.css'),
